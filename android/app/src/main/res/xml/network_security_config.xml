@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Most internet radio streams (including several in the default favourites, e.g. BBC,
+  Capital, Heart) are still served over plain HTTP, not HTTPS. Android blocks cleartext
+  traffic by default since API 28. This isn't a new risk the app introduces — the desktop
+  version plays the exact same HTTP streams via mpv/vlc, which don't enforce TLS either —
+  it's just Android requiring an explicit opt-in that a desktop OS doesn't ask for.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
