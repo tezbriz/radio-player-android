@@ -7,6 +7,28 @@ theme, same station source, same philosophy: it talks to exactly one external se
 ([radio-browser.info](https://www.radio-browser.info/), a free public station directory)
 and whatever stream you choose to play. No ads, no analytics, no accounts, no tracking.
 
+## Installing
+
+No Play Store account needed — grab the signed APK from the
+[latest release](https://github.com/tezbriz/radio-player-android/releases/latest) and
+sideload it directly from your phone:
+
+1. Open the release page above **on the phone** and tap the `.apk` file to download it.
+2. Open the downloaded file (from the download notification, or the Files/Downloads app).
+3. Android will show an **"Install unknown apps"** warning the first time — this is
+   expected for anything not from the Play Store. Tap through it; it'll offer to take you
+   straight to the permission toggle for whichever app you downloaded it with (e.g. Chrome).
+   It's a one-time step per app used to install.
+4. It may also show a **Play Protect** scan warning, also expected for a non-Play-Store
+   APK — tap "Install anyway".
+5. Tap **Install**, then **Open**.
+6. On first launch, allow the **notification permission** if prompted — it's needed for
+   the lock-screen/media playback controls.
+
+That's it. No Google account, no Play Store, nothing else required. Since the APK is
+self-signed rather than store-issued, it will never show as "verified" the way a Play
+Store app does — the warning in step 4 is expected, not a sign anything's wrong.
+
 ## Features
 
 - Search and browse stations by country (or worldwide)
